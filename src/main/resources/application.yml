@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: root
+    password: pyphon
+    url: jdbc:mysql://localhost:3306/test?useSSL=false&severTimezone=GMT%288&allowPubilcKeyRetrieval=true6/test?useSSL=false&severTimezone=GMT%288&allowPubilcKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Drive
+mybatis:
+  mapper-locations: classpath*:mapper*.xml
+  type-aliases-package: com.example.demo.mapper
